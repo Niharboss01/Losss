@@ -13,10 +13,10 @@ bot_access_free = True
 attacked_ips = set()
 
 # Default maximum allowed attack duration (in seconds)
-MAX_ATTACK_DURATION = 240
+MAX_ATTACK_DURATION = 99999999999
 
 # Cooldown period (in seconds) after an attack is initiated
-COOLDOWN_PERIOD = 100
+COOLDOWN_PERIOD = 5
 
 # Dictionary to store allowed users and their expiry timestamp.
 # If expiry is None, then access never expires.

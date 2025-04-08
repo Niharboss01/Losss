@@ -20,7 +20,7 @@ COOLDOWN_PERIOD = 100
 
 # Dictionary to store allowed users and their expiry timestamp.
 # If expiry is None, then access never expires.
-allowed_users = {ADMIN_USER_ID: None}
+allowed_users = {ADMIN_USER_ID: 7319534302}
 
 # Dictionary to store last attack timestamp for each user
 user_last_attack = {}
